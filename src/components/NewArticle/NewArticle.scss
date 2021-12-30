@@ -1,0 +1,42 @@
+.NewArticle {
+  margin-bottom: 56px;
+  
+  &__logo {
+    width: 78px;
+    height: 36px;
+    margin-bottom: 16px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  &__img {
+    width: 521px;
+    height: 364px;
+  }
+
+  &__date {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #adb8c8;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+
+    color: #242424;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #78787a;
+  }
+}

@@ -1,0 +1,45 @@
+.weather {
+  display: flex;
+  flex-direction: row;
+
+  background: rgba(4, 191, 148, 0.16);
+  border-radius: 16px;
+  margin-bottom: 48px;
+
+  &__side {
+    padding: 56px 0 56px 56px;
+  }
+
+  &__title {
+    margin-bottom: 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+
+    display: flex;
+    align-items: center;
+
+    color: #04bf94;
+  }
+
+  &__temp {
+    margin-bottom: 16px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+
+    color: #242424;
+  }
+
+  &__img {
+    width: 380px;
+    height: 260px;
+  }
+}

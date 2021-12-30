@@ -1,8 +1,12 @@
 import React from 'react';
 import './App.scss';
 
+import { Header } from './components/Header/Header';
+import { Main } from './components/Main/Main';
+
 export const App = () => (
-  <div className="starter">
-    React starter pack
-  </div>
+  <body className="body">
+    <Header />
+    <Main />
+  </body>
 );

@@ -1,0 +1,55 @@
+.header {
+  position: sticky;
+  display: flex;
+  height: 64px;
+  width: 100%;
+
+  justify-content: space-between;
+  flex-direction: row;
+
+  box-shadow: 0 2px 40px rgba(0, 0, 0, 0.1),
+    0 0.4px 6.5px rgba(0, 0, 0, 0.05);
+
+  &__side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__nav {
+    &-list {
+      height: 64px;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      align-items: center;
+    }
+
+    &-link {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-decoration: none;
+      color: #262626;
+    }
+  }
+}
+
+.logo {
+  height: 24px;
+  width: 107px;
+  margin: 0 44px 0 24px;
+}
+
+.search {
+  height: 18px;
+  width: 18px;
+}
+
+.user {
+  height: 24px;
+  width: 24px;
+  margin: 0 24px 0 40px;
+}

@@ -1,0 +1,39 @@
+.main {
+  &__content {
+    margin: 0 auto;
+    width: 1074px;
+  }
+
+  &__nav {
+    margin-bottom: 48px;
+
+    &-list {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      gap: 16px;
+    }
+
+    &-item {
+      color: #91a0b6;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+
+      &::after {
+        content: ">";
+        margin-left: 17px;
+      }
+    }
+
+    &-link {
+      color: #91a0b6;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-decoration: none;
+    }
+  }
+}
