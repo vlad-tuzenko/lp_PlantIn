@@ -1,0 +1,47 @@
+.Promo {
+  display: flex;
+  height: 242px;
+  flex-direction: row;
+  padding: 24px 0 24px 24px;
+  margin-bottom: 56px;
+  background: linear-gradient(90deg, #CFEDE6 7.49%, rgba(140, 222, 203, 0.832667) 100%);
+  border-radius: 12px;
+
+  &__logo {
+    margin: 0 0 24px 0;
+  }
+
+  &__title {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #04BF94;
+  }
+
+  &__text {
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #000;
+  }
+
+  &__button {
+    padding: 8px 32px;
+    background-color: #04bf94;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  &__img {
+    position: relative;
+    width: 336px;
+    height: 261px;
+    top: -35px;
+    left: 55px;
+  }
+}

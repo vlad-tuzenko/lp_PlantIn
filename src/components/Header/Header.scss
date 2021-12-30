@@ -1,4 +1,4 @@
-.header {
+.Header {
   position: sticky;
   display: flex;
   height: 64px;
@@ -14,6 +14,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+
+  &__logo {
+    margin: 0 44px 0 24px;
   }
 
   &__nav {
@@ -35,21 +39,4 @@
       color: #262626;
     }
   }
-}
-
-.logo {
-  height: 24px;
-  width: 107px;
-  margin: 0 44px 0 24px;
-}
-
-.search {
-  height: 18px;
-  width: 18px;
-}
-
-.user {
-  height: 24px;
-  width: 24px;
-  margin: 0 24px 0 40px;
 }

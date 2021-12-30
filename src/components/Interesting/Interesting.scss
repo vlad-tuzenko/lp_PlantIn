@@ -1,0 +1,49 @@
+.Interesting {
+  margin-bottom: 56px;
+
+  &__title {
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #91A0B6;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  &__item {
+    flex-basis: calc(100% / 3 - 64px);
+    margin-bottom: 16px;
+
+    &-date {
+      margin-bottom: 8px;
+      font-size: 16px;
+      line-height: 24px;
+  
+      color: #adb8c8;
+    }
+  
+    &-title {
+      margin-bottom: 8px;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 36px;
+  
+      color: #242424;
+    }
+  
+    &-text {
+      font-size: 16px;
+      line-height: 24px;
+  
+      color: #78787a;
+    }
+  }
+}
