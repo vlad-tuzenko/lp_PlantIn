@@ -1,0 +1,33 @@
+.Footer {
+  padding: 82px 0;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #91A0B6;
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  &__item {
+    &::after {
+      margin-left: 24px;
+      content: "|";
+    }
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 20px;
+    color: #91A0B6;
+    text-decoration: none;
+  }
+}

@@ -17,7 +17,7 @@ export const Promo = () => (
       <p className="Promo__text">
         Get rid of limits and read everything you wish
       </p>
-      <span className="Promo__button">Try For Free</span>
+      <button type="button" className="Promo__button">Try For Free</button>
     </div>
     <img className="Promo__img" src="/images/promo.png" alt="Promo" />
   </div>

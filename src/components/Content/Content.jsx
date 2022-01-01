@@ -5,59 +5,18 @@ import { NewArticle } from '../NewArticle/NewArticle';
 import { TopAricle } from '../TopArticle/TopArticle';
 import { Interesting } from '../Interesting/Interesting';
 import { Promo } from '../Promo/Promo';
+import { InfiniteScroll } from '../InfiniteScroll/InfiniteScroll';
 
-export const Content = () => {
-  const articles = [
-    {
-      img: '/images/interesting1.png',
-      date: 'Feb 23 · 8 min read',
-      title: 'Watering mastery',
-      text: 'Repotting a plant can seem like a difficult task'
-        + 'because a lot of things can go wrong – you can damage...',
-    },
-    {
-      img: '/images/interesting2.png',
-      date: 'Feb 23 · 8 min read',
-      title: 'Plant pot secrets',
-      text: 'Repotting a plant can seem like a difficult task'
-        + 'because a lot of things can go wrong – you can damage...',
-    },
-    {
-      img: '/images/interesting3.png',
-      date: 'Feb 23 · 8 min read',
-      title: 'Professional Repot',
-      text: 'Repotting a plant can seem like a difficult task'
-        + 'because a lot of things can go wrong – you can damage...',
-    },
-    {
-      img: '/images/interesting1.png',
-      date: 'Feb 23 · 8 min read',
-      title: 'Watering mastery',
-      text: 'Repotting a plant can seem like a difficult task'
-        + 'because a lot of things can go wrong – you can damage...',
-    },
-    {
-      img: '/images/interesting2.png',
-      date: 'Feb 23 · 8 min read',
-      title: 'Plant pot secrets',
-      text: 'Repotting a plant can seem like a difficult task'
-        + 'because a lot of things can go wrong – you can damage...',
-    },
-    {
-      img: '/images/interesting3.png',
-      date: 'Feb 23 · 8 min read',
-      title: 'Professional Repot',
-      text: 'Repotting a plant can seem like a difficult task'
-        + 'because a lot of things can go wrong – you can damage...',
-    },
-  ];
+export const Content = ({ data }) => {
+  const { newArticle, topArticle, interesting } = data;
 
   return (
     <>
-      <NewArticle />
-      <TopAricle />
-      <Interesting articles={articles} />
+      {newArticle.length > 0 && <NewArticle articles={newArticle} />}
+      {topArticle.length > 0 && <TopAricle articles={topArticle} />}
+      {interesting.length > 0 && <Interesting articles={interesting} />}
       <Promo />
+      {interesting.length > 0 && <InfiniteScroll data={interesting} />}
     </>
   );
 };

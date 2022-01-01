@@ -1,8 +1,13 @@
 @import "./reset.scss";
 
-.body {
+body {
   background: #f6f6f6;
   font-family: "Poppins", sans-serif;
+}
+
+.content {
+  margin: 0 auto;
+  width: 1074px;
 }
 
 .logo {

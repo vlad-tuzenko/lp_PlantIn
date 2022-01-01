@@ -35,7 +35,9 @@ export const Header = () => (
       </nav>
     </div>
     <div className="Header__side">
-      <img className="search" src="/images/search.svg" alt="search" />
+      <a href="#weather__search">
+        <img className="search" src="/images/search.svg" alt="search" />
+      </a>
       <img className="user" src="/images/user.svg" alt="user" />
     </div>
   </header>

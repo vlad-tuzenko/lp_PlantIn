@@ -1,6 +1,6 @@
 .Promo {
   display: flex;
-  height: 242px;
+  height: 252px;
   flex-direction: row;
   padding: 24px 0 24px 24px;
   margin-bottom: 56px;
@@ -32,9 +32,15 @@
   &__button {
     padding: 8px 32px;
     background-color: #04bf94;
+    border: none;
     color: #fff;
     border-radius: 8px;
     cursor: pointer;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   &__img {
