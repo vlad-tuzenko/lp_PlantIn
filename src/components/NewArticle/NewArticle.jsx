@@ -4,7 +4,11 @@ import './NewArticle.scss';
 
 export const NewArticle = ({ articles }) => (
   <div className="NewArticle">
-    <img className="NewArticle__logo" src="/images/new_badge.svg" alt="New" />
+    <img
+      className="NewArticle__logo"
+      src="./images/new_badge.svg"
+      alt="New"
+    />
     {articles.map(article => (
       <div className="NewArticle__content" key={uniqid()}>
         <img

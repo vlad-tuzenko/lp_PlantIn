@@ -59,14 +59,14 @@ export const Weather = ({ filterArticle }) => {
           </form>
           <img
             className="Weather__ico"
-            src="/images/weather-search.svg"
+            src="./images/weather-search.svg"
             alt="Search"
           />
         </div>
       </div>
       <img
         className="Weather__img"
-        src="/images/weather.svg"
+        src="./images/weather.svg"
         alt="weather"
       />
     </div>
