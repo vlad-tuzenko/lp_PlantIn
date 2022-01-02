@@ -1,0 +1,33 @@
+@import "../../mixins.scss";
+
+.MenuMobile {
+  position: fixed;
+  padding: 10px 0;
+  top: 63px;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 40px rgba(0, 0, 0, 0.1),
+  0 0.4px 6.5px rgba(0, 0, 0, 0.05);
+
+  @include onDesktop {
+    display: none;
+  }
+
+  &__nav {
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    &-item {
+      padding: 10px 30px;
+      text-align: end;
+    }
+
+    &-link {
+      text-decoration: none;
+      color: #242424;
+    }
+  }
+}
