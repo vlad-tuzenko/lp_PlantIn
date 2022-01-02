@@ -1,7 +1,7 @@
 {
   "newArticle": [
     {
-      "img": "/images/new_article.png",
+      "img": "./images/new_article.png",
       "date": "Feb 23 · 8 min read",
       "title": "Tips & Tricks For Cuttin",
       "text": "Pruning, like any other skill, requires knowing what you are doing to achieve success. The old idea that anyone with a chain saw or a pruning saw can be a landscape pruner is far from the truth. More trees are killed or ruined each year from improper pruning than by pests. Remember that pruning is the removal or..."
@@ -9,13 +9,13 @@
   ],
   "topArticle": [
     {
-      "img": "/images/topArticle1.png",
+      "img": "./images/topArticle1.png",
       "date": "Feb 23 · 8 min read",
       "title": "Professional Repot",
       "text": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage..."
     },
     {
-      "img": "/images/topArticle2.png",
+      "img": "./images/topArticle2.png",
       "date": "Feb 23 · 8 min read",
       "title": "Professional Repot",
       "text": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage..."
@@ -23,37 +23,37 @@
   ],
   "interesting": [
     {
-      "img": "/images/interesting1.png",
+      "img": "./images/interesting1.png",
       "date": "Feb 23 · 8 min read",
       "title": "Watering mastery",
       "text": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage..."
     },
     {
-      "img": "/images/interesting2.png",
+      "img": "./images/interesting2.png",
       "date": "Feb 23 · 8 min read",
       "title": "Plant pot secrets",
       "text": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage..."
     },
     {
-      "img": "/images/interesting3.png",
+      "img": "./images/interesting3.png",
       "date": "Feb 23 · 8 min read",
       "title": "Professional Repot",
       "text": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage..."
     },
     {
-      "img": "/images/interesting1.png",
+      "img": "./images/interesting1.png",
       "date": "Feb 23 · 8 min read",
       "title": "Watering mastery",
       "text": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage..."
     },
     {
-      "img": "/images/interesting2.png",
+      "img": "./images/interesting2.png",
       "date": "Feb 23 · 8 min read",
       "title": "Plant pot secrets",
       "text": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage..."
     },
     {
-      "img": "/images/interesting3.png",
+      "img": "./images/interesting3.png",
       "date": "Feb 23 · 8 min read",
       "title": "Professional Repot",
       "text": "Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage..."

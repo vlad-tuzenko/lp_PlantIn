@@ -7,7 +7,7 @@ export const Promo = () => (
       <a href="#home">
         <img
           className="Promo__logo logo"
-          src="/images/logo.svg"
+          src="./images/logo.svg"
           alt="Plant In"
         />
       </a>
@@ -19,6 +19,6 @@ export const Promo = () => (
       </p>
       <button type="button" className="Promo__button">Try For Free</button>
     </div>
-    <img className="Promo__img" src="/images/promo.png" alt="Promo" />
+    <img className="Promo__img" src="./images/promo.png" alt="Promo" />
   </div>
 );

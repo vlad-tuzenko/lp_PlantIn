@@ -12,7 +12,7 @@ export const Header = () => {
         <a href="#home">
           <img
             className="Header__logo logo"
-            src="/images/logo.svg"
+            src="./images/logo.svg"
             alt="Plant In"
           />
         </a>
@@ -41,13 +41,13 @@ export const Header = () => {
       </div>
       <div className="Header__side">
         <a href="#weather__search">
-          <img className="search" src="/images/search.svg" alt="search" />
+          <img className="search" src="./images/search.svg" alt="search" />
         </a>
-        <img className="user" src="/images/user.svg" alt="user" />
+        <img className="user" src="./images/user.svg" alt="user" />
         <a href="#menu" onClick={() => setMenuOpened(current => !current)}>
           <img
             className="menu"
-            src="/images/menu_mob.svg"
+            src="./images/menu_mob.svg"
             alt="menu"
           />
         </a>
