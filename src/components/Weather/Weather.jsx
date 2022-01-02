@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import './Weather.scss';
 
 export const Weather = ({ filterArticle }) => {
@@ -16,8 +15,9 @@ export const Weather = ({ filterArticle }) => {
     const baseUrl = 'https://api.openweathermap.org/data/2.5/';
     const url = `${baseUrl}weather?q=${city}&appid=${apiKey}&units=metric`;
 
-    await axios.get(url)
-      .then(response => setTemperature(Math.floor(response.data.main.temp)))
+    await fetch(url)
+      .then(response => response.json())
+      .then(data => setTemperature(Math.floor(data.main.temp)))
       .catch((err) => {
         throw new Error(err);
       });
@@ -43,6 +43,9 @@ export const Weather = ({ filterArticle }) => {
           className="Weather__temp"
         >
           {`Current temperature is: ${temperature}°C`}
+        </p>
+        <p className="Weather__text-mob">
+          Tips &amp; Tricks selected specially for you!
         </p>
         <div className="Weather__search">
           <form>

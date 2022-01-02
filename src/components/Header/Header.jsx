@@ -39,6 +39,7 @@ export const Header = () => (
         <img className="search" src="/images/search.svg" alt="search" />
       </a>
       <img className="user" src="/images/user.svg" alt="user" />
+      <img className="menu" src="/images/menu_mob.svg" alt="menu" />
     </div>
   </header>
 );

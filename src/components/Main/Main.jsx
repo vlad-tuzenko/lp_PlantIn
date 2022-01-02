@@ -47,6 +47,9 @@ export const Main = () => {
             </li>
           </ul>
         </nav>
+        <nav className="main__nav-mob">
+          <a className="main__nav-link" href="#home">Home</a>
+        </nav>
         <Weather filterArticle={filterArticle} />
         <Content data={articles} />
       </div>

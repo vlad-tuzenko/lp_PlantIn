@@ -1,6 +1,12 @@
+@import "../../mixins.scss";
+
 .main {
   &__nav {
     margin-bottom: 48px;
+
+    @include onMobile {
+      display: none;
+    }
 
     &-list {
       display: flex;
@@ -29,6 +35,22 @@
       font-size: 16px;
       line-height: 24px;
       text-decoration: none;
+
+      @include onMobile {
+        &::before {
+          content: "<";
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+
+  &__nav-mob {
+    display: none;
+    margin: 16px 0 24px 0;
+
+    @include onMobile {
+      display: block;
     }
   }
 }

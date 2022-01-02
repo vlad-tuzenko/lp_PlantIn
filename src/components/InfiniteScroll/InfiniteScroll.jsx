@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import React, { useState, useEffect } from 'react';
 import uniqid from 'uniqid';
 
@@ -15,10 +14,6 @@ export const InfiniteScroll = ({ data }) => {
 
   const scrollHandler = (event) => {
     const { documentElement } = event.target;
-
-    console.log('Scroll');
-    console.log(documentElement.scrollHeight);
-    console.log(documentElement.scrollTop);
 
     if (
       documentElement.scrollHeight
