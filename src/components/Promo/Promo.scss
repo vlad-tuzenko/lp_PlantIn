@@ -1,0 +1,84 @@
+@import "../../mixins.scss";
+
+.Promo {
+  display: flex;
+  height: 252px;
+  flex-direction: row;
+  padding: 24px 0 24px 24px;
+  margin-bottom: 56px;
+  background: linear-gradient(90deg, #CFEDE6 7.49%, rgba(140, 222, 203, 0.832667) 100%);
+  border-radius: 12px;
+
+  @include onMobile {
+    padding: 16px;
+    height: 262px;
+  }
+
+  &__logo {
+    margin-bottom: 24px;
+
+    @include onMobile {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #04BF94;
+
+    @include onMobile {
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #000;
+
+    @include onMobile {
+      font-size: 18px;
+      line-height: 27px;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__button {
+    padding: 8px 32px;
+    background-color: #04bf94;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    @include onMobile {
+      width: 100%;
+    }
+  }
+
+  &__img {
+    position: relative;
+    width: 336px;
+    height: 261px;
+    top: -35px;
+    left: 55px;
+
+    @include onMobile {
+      display: none;
+    }
+  }
+}

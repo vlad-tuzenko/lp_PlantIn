@@ -1,3 +1,46 @@
-.starter {
-  font-size: 18px;
+@import "./reset.scss";
+@import "./mixins.scss";
+
+body {
+  background: #f6f6f6;
+  font-family: "Poppins", sans-serif;
+}
+
+.content {
+  margin: 0 auto;
+  width: 1074px;
+
+  @include onMobile {
+    width: 343px;
+  }
+}
+
+.logo {
+  height: 24px;
+  width: 107px;
+}
+
+.search {
+  height: 18px;
+  width: 18px;
+}
+
+.user {
+  height: 24px;
+  width: 24px;
+  margin: 0 24px 0 40px;
+
+  @include onMobile {
+    display: none;
+  }
+}
+
+.menu {
+  display: none;
+
+  @include onMobile {
+    display: block;
+    margin: 0 23px 0 30px;
+    cursor: pointer;
+  }
 }
