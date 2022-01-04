@@ -1,9 +1,13 @@
-# React Starter Pack
+# PlantIn Landing Page
 
-To use this template click `Use this template`
+Landing page with adaptive design for desktop and mobile. Created on React with usage SCSS
 
-### Available Scripts
+[DEMO LINK](https://vlad-tuzenko.github.io/lp_PlantIn/)
 
-`Deploy` - available to deploy your application to gh-pages
+[Figma design](https://www.figma.com/file/KtzICEGlTEoXBJlD1Vid8X/PlantIn-Test-Case?node-id=0%3A1)
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+## Implemented functionality
+* Search by title or text in articles.
+* Infinite scrolling of articles after Promo block.
+* Display current air temperature in Kyiv.
+* Implemented a menu for mobile devices.
