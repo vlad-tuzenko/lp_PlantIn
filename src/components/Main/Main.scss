@@ -16,6 +16,8 @@
     }
 
     &-item {
+      padding-top: 3px;
+
       color: #91a0b6;
       font-family: "Poppins", sans-serif;
       font-weight: 500;
@@ -35,6 +37,11 @@
       font-size: 16px;
       line-height: 24px;
       text-decoration: none;
+
+      &:hover {
+        color: #677383;
+        transition-duration: 0.5s;
+      }
 
       @include onMobile {
         &::before {
