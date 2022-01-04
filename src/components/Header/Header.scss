@@ -51,6 +51,11 @@
       line-height: 24px;
       text-decoration: none;
       color: #262626;
+
+      &:hover {
+        color: #04bf94;
+        transition-duration: 0.5s;
+      }
     }
   }
 }

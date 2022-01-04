@@ -1,12 +1,12 @@
 @import "../../mixins.scss";
 
-.Promo {
+.NoArticles {
   display: flex;
   height: 252px;
   flex-direction: row;
   padding: 24px 0 24px 24px;
   margin-bottom: 56px;
-  background: linear-gradient(90deg, #CFEDE6 7.49%, rgba(140, 222, 203, 0.832667) 100%);
+  background: linear-gradient(90deg, #ede0cf 7.49%, rgba(222, 157, 140, 0.833) 100%);
   border-radius: 12px;
 
   @include onMobile {
@@ -14,12 +14,8 @@
     height: 262px;
   }
 
-  &__logo {
-    margin-bottom: 24px;
-
-    @include onMobile {
-      margin-bottom: 16px;
-    }
+  &__content {
+    padding-top: 40px;
   }
 
   &__title {
@@ -28,7 +24,7 @@
     font-size: 32px;
     line-height: 48px;
 
-    color: #04BF94;
+    color: #bf7a04;
 
     @include onMobile {
       font-weight: 800;
@@ -52,35 +48,12 @@
     }
   }
 
-  &__button {
-    padding: 8px 32px;
-    background-color: #04bf94;
-    border: none;
-    color: #fff;
-    border-radius: 8px;
-    cursor: pointer;
-
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-
-    &:hover {
-      background-color: #04a781;
-      transition-duration: 0.5s;
-    }
-
-    @include onMobile {
-      width: 100%;
-    }
-  }
-
   &__img {
     position: relative;
-    width: 336px;
-    height: 261px;
-    top: -35px;
-    left: 55px;
+    width: 322px;
+    height: 316px;
+    top: -60px;
+    left: 95px;
 
     @include onMobile {
       display: none;
